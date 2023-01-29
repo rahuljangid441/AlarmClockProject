@@ -87,7 +87,7 @@ body{
 /* to style container that contains alarm list */
 #all-alarm{
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 42%;
 }
 
@@ -100,7 +100,7 @@ body{
 .item_list{
     background-color: brown;
     height: 60px;
-    width: 110%;
+    width: 150%;
     text-align: center;
     display: flex;
     flex-direction: column;
