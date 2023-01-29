@@ -100,13 +100,15 @@ body{
 .item_list{
     background-color: brown;
     height: 60px;
-    width: 150%;
+    width: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: space-between;
     font-size: 2rem;
+    position:absolute;
+    top: 1%;
+    left: 12%;
 }
 
 /* to style the delete button of each alarm added  */
