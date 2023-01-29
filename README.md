@@ -15,5 +15,6 @@ This project have following features like as follows
  3. Alarm List:-
    a. All the alarm that are set by the user will apperar in upcoming alarms list.
    b.Each alarm in the alarm list has delete function using which the particula alarm can be deleted.
- 
-![pic1](https://user-images.githubusercontent.com/48203590/215321889-d63bfca2-a290-4a7e-9ad6-6e7e04de2138.png)
+
+![image](https://user-images.githubusercontent.com/48203590/215322719-6b41ee2a-a3ae-4bdc-8e04-f8c17f23ff81.png)
+
