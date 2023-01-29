@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <!-- to include css file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+    <div class="container">
+        <div class="header">
+            <h1>Digital alarm clock(24 hours format)</h1>
+        </div>
+        <div id="current-time">
+        </div>
+        <h1>Set alarm</h1>
+        <!-- form to take alarm form user -->
+        <form class="set-alarm">
+            <input type="number" id="hrs" max="23" min="00" placeholder="enter hour">
+            <input type="number" id="mins" max="'59" min="00" placeholder="enter minute">
+            <input type="number" id="secs" max="59" min="00" placeholder="enter seconds">
+            <button type="submit" id="setButton" >Set Alarm</button>
+            <button type="reset" id="removeButton" onclick="clearAlarm()">Clear Alarm</button>
+        </form>
+        <!-- this container is for alarm list -->
+        <div id="all-alarm">
+            <h1>Upcoming Alarms</h1>
+            <!-- this is show upcoming alarms -->
+            <ul id="alarm-list">
+                
+            </ul>
+        </div>
+        
+    </div>
+
+<!-- to include the script -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
