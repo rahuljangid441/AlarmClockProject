@@ -106,9 +106,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-size: 2rem;
-    position:absolute;
-    top: 1%;
-    left: 12%;
+   
 }
 
 /* to style the delete button of each alarm added  */
